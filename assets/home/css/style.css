@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wraper{
+  margin: 120px 0;
+}
+@media (min-width: 992px) { 
+  .wraper{
+    margin: 150px 0;
+  }
+}
+
+/*------navbar--------*/
+.nav-link {
+  text-align: center;
+  margin: 10px;
+  color: #34364a !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+nav .btn{
+  border-radius: 50px;
+}
+
+@media (min-width: 992px) { 
+  .nav-link{
+    margin: 20px;
+  }
+  .nav-link {
+		margin-right: 30px;
+		font-size: 16px;
+	}
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid #ffc107;
+		width: 100%;
+		margin: auto;
+		padding-top: 5px;
+		margin-bottom: -8px;
+	}
+}  
+
+
+
+/*------Slide--------*/
+.geser {
+  margin-top: -900px;
+}
+.geser img{
+  background-size: cover;
+}
+.geser .btn{
+  color: #ffffff;
+  margin-top: 40px;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  font-size: 42px;
+
+}
+
+
+@media (min-width: 40em) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 6rem;
+  }
+}
+
+
+/*------Kategori--------*/
+.kategori .card{
+  padding: 10px !important;
+  border-radius: 20px !important;
+  border: none;
+}
+.kategori a {
+	text-decoration:none;
+	color: #010232 !important;
+}
+.kategori .shadow {
+	display: block;
+	vertical-align: middle;
+	position: relative;
+	transition-duration: 0.3s;
+	transition-property: transform;
+	cursor: pointer;
+}
+
+.kategori .shadow:hover,
+.kategori .shadow:focus,
+.kategori .shadow:active {
+	transform: translateY(-10px);
+	background-color: #fff2cb !important;
+	color: #ffffff !important;
+  
+}
+
+
+/*------Produk--------*/
+.produk .card{
+  padding: 40px 20px;
+  border-radius: 10px;
+  border-color: #ffc107;
+}
+.produk .data img{
+  border-radius: 20px;
+  width: 380px;
+  height: 380px;
+}
+.produk  .home img{
+  width: 280px;
+  height: 280px;
+}
+.produk .btn{
+  border-radius: 10px;
+  color: #ffffff;
+}
+/*------footer--------*/
+footer{
+  background-color: #ffc107;
+  color: #ffffff;
+}
+footer hr{
+  border: 1px solid white;
+}
+footer .bottom .row{
+  padding: 60px 0 20px;
+}
+
+
+
+/*------Kontak-------*/
+.kontak{
+  margin: 100px 0;
+}
+@media (min-width: 992px) { 
+  .kontak{
+    margin: 100px 0;
+  }
+}
+.kontak .card{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	border-color: transparent;
+  padding: 10px;
+}
+.kontak .btn{
+  border-radius: 50px;
+}
+@media (min-width: 992px) { 
+  .kontak .card{
+    padding: 50px;
+  }
+}
+
+/*------detail-------*/
+.detail .card{
+  padding: 20px;
+  border-color: #ffc107;
+  border-radius: 20px;
+}
+.detail img{
+  border-radius: 20px;
+}
