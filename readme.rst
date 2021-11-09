@@ -1,6 +1,5 @@
 ###################
-Crud dan login sederhana dengan Codeigniter
+Rintizan.id
 ###################
 
-sudah ter include dengan dbnya
-
+proyek yang clientnya ga jelas (dighosting)
